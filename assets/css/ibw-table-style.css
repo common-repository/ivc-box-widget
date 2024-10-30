@@ -1,0 +1,59 @@
+/*
+	Стили плагина Таблица Админка
+*/
+
+#message{
+	margin-left:0;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.ibw-update-form p.submit{
+	margin:15px 0;
+	padding:0;
+}
+
+.ibw-update-form .form-input{
+	margin-bottom:5px;
+}
+
+table.orders_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.orders_table tr {
+	border-top:1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+table.orders_table th {
+	padding:10px;
+	text-align: center;
+	font-size:16px;
+	font-weight:bold;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+
+table.orders_table td {
+	padding:10px;
+	text-align: center;
+	font-size:16px;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+
+table.orders_table td span.green{
+	color:green;
+}
+
+table.orders_table td span.red{
+	color:red;
+}
+
+.page-numbers { list-style:none; font-size:14px; }
+.page-numbers li{ display:inline; }
+.page-numbers li a{ display:block; float:left; padding:4px 5px; margin-right:5px; border:1px solid #efefef; }
+.page-numbers li span.current { display:block; float:left; padding:4px 9px; margin-right:5px; border:1px solid #efefef; background-color:#f5f5f5;  }	
+.page-numbers li span.dots { display:block; float:left; padding:4px 5px; margin-right:5px;  }
